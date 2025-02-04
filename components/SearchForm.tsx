@@ -10,6 +10,7 @@ const SearchForm: React.FC = ({ query }: { query?: string }) => {
                 defaultValue={query}
                 className='search-input'
                 placeholder='Search for startups'
+                autoComplete='off'
             />
 
             <div className='flex gap-2'>
